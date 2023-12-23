@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2e2e47;
+}
+
+.incdec{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   gap:25px;
+}
+
+.heading{
+    color: #0398d4;
+    /*font: medium;*/
+    font-size:40px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height:50px;
+    width:300px;
+    font-size: 25px;
+    border-radius: 2%;
+    color: #344151;
+    padding: 3px;
+    gap:12px;
+    border:5px solid black;
+}
+
+.wrapper button{
+    height: 100%;
+    width: 140px;
+}
+.count{
+    font:bold;
+    position: relative;
+}
+
